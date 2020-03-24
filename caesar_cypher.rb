@@ -48,7 +48,7 @@ end
 puts cypher 'THIS! IS! A! stringy boi...?', 6
 puts cypher 'THIS! IS! A! stringy boi...?', 15
 
-def decyper str, num
+def decypher str, num
 
   str_array = str.split
   shifted_string_array = Array.new
@@ -94,4 +94,4 @@ def decyper str, num
   shifted_string_array.join('')
 end
 
-puts decyper (cypher "THIS! IS! A! stringy boi...?", 6), 6
+puts decypher (cypher "THIS! IS! A! stringy boi...?", 6), 6
