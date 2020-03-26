@@ -19,10 +19,10 @@ def array_generator(num=rand(100))
   Array.new(num) { |i| (i + 1) * (1 + rand(20)) }
 end
 
-test = [17,3,6,9,15,8,6,1,10]
-puts stock_picker(test)
-puts '*******'
-test_array = array_generator 20
-puts test_array
-puts '*******'
-puts stock_picker(test_array)
+# test = [17,3,6,9,15,8,6,1,10]
+# puts stock_picker(test)
+# puts '*******'
+# test_array = array_generator 20
+# puts test_array
+# puts '*******'
+# puts stock_picker(test_array)
